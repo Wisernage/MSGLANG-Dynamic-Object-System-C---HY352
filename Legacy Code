@@ -1,0 +1,170 @@
+/*vals operator, (Object object) {
+	Object* objectPointer = &object;
+	BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), objectPointer);
+	valsBufferMapIndex++;
+	vals temp(*this);
+	return temp;
+}*/
+/*
+vals operator, (function<int ()> value) {
+	BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), value);
+	valsBufferMapIndex++;
+	vals temp(*this);
+	return temp;
+}
+vals operator, (function<double()> value) {
+	BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), value);
+	valsBufferMapIndex++;
+	vals temp(*this);
+	return temp;
+}
+vals operator, (function<const char* ()> value) {
+	BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), value);
+	valsBufferMapIndex++;
+	vals temp(*this);
+	return temp;
+}
+vals operator, (function<bool()> value) {
+	BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), value);
+	valsBufferMapIndex++;
+	vals temp(*this);
+	return temp;
+}
+vals operator, (function<Object()> value) {
+	BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), value);
+	valsBufferMapIndex++;
+	vals temp(*this);
+	return temp;
+}*/
+
+/*
+	else if (value.isFuncBool == true || value.isFuncDouble == true || value.isFuncInt == true || value.isFuncObject == true || value.isFuncString == true) {
+		map.insert(pair<string, val>(mapIndex, "method"));
+	}
+	*/
+
+	//vals* valsPointer = &valsobj;
+
+	/*
+	MapValBuffer->isFuncInt = false;
+	MapValBuffer->isFuncDouble = false;
+	MapValBuffer->isFuncString = false;
+	MapValBuffer->isFuncBool = false;
+	MapValBuffer->isFuncObject = false;
+	*/
+
+	/*void operator= (function<int()> funcInt) {
+		change(MapValBuffer);
+		MapValBuffer->funcInt = funcInt;
+		MapValBuffer->isFuncInt = true;
+	};
+	void operator= (function<double()> funcDouble) {
+		change(MapValBuffer);
+		MapValBuffer->funcDouble = funcDouble;
+		MapValBuffer->isFuncDouble = true;
+	};
+	void operator= (function<const char* ()> funcString) {
+		change(MapValBuffer);
+		MapValBuffer->funcString = funcString;
+		MapValBuffer->isFuncString = true;
+	};
+	void operator= (function<bool ()> funcBool) {
+		change(MapValBuffer);
+		MapValBuffer->funcBool = funcBool;
+		MapValBuffer->isFuncBool = true;
+	};*/
+	/*void operator= (function<Object()> funcObject) {
+		change(MapValBuffer);
+		MapValBuffer->funcObject = funcObject;
+		MapValBuffer->isFuncObject = true;
+	};*/
+
+	/*val(function<int()> funcInt) {
+		this->funcInt = funcInt;
+		isFuncInt = true;
+	};
+
+	val(function<double()> funcDouble) {
+		this->funcDouble = funcDouble;
+		isFuncDouble = true;
+	};
+
+	val(function<const char* ()> funcString) {
+		this->funcString = funcString;
+		isFuncString = true;
+	};
+
+	val(function<bool ()> funcBool) {
+		this->funcBool = funcBool;
+		isFuncBool = true;
+	};*/
+
+	/*val(function<Object ()> funcObject) {
+		this->funcObject = funcObject;
+		isFuncObject = true;
+	};*/
+
+	/*bool isFuncInt = false, isFuncDouble = false, isFuncString = false, isFuncBool = false, isFuncObject = false;*/
+
+	/*function<int ()> funcInt;
+	function<double()> funcDouble;
+	function<const char* ()> funcString;
+	function<bool ()> funcBool;*/
+	//function<Object()> funcObject;
+
+/*vals operator, (Object object) {
+		Object* objectPointer = &object;
+		BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), objectPointer);
+		valsBufferMapIndex++;
+		vals temp(*this);
+		return temp;
+	}*/
+
+	//vals operator, (val myval, Object object) {
+	//	Object* objectPointer = &object;
+	//	valsobj.BufferValsMap = addToMap(valsobj.BufferValsMap, to_string(valsobj.valsBufferMapIndex), objectPointer);
+	//	valsobj.valsBufferMapIndex++;
+	//	return valsobj;
+	//}
+	//
+	//vals operator, (function <val()> value, Object object) {
+	//	Object* objectPointer = &object;
+	//	valsobj.BufferValsMap = addToMap(valsobj.BufferValsMap, to_string(valsobj.valsBufferMapIndex), objectPointer);
+	//	valsobj.valsBufferMapIndex++;
+	//	return valsobj;
+	//}
+	//
+	//vals operator, (Object object, val value) {
+	//	valsobj.BufferValsMap = addToMap(valsobj.BufferValsMap, to_string(valsobj.valsBufferMapIndex), value);
+	//	valsobj.valsBufferMapIndex++;
+	//	return valsobj;
+	//}
+	//
+	//vals operator, (Object object, function <val()> value) {
+	//	valsobj.BufferValsMap = addToMap(valsobj.BufferValsMap, to_string(valsobj.valsBufferMapIndex), value);
+	//	valsobj.valsBufferMapIndex++;
+	//	return valsobj;
+	//}
+
+/*friend vals operator, (function <val()> value, Object object);
+	friend vals operator, (Object object, val vals);
+	friend vals operator, (Object object, function <val()> value);
+	*/
+
+	/*vals operator, (Object object) {
+			Object* objectPointer = &object;
+			BufferValsMap = addToMap(BufferValsMap, to_string(valsBufferMapIndex), objectPointer);
+			valsBufferMapIndex++;
+			return (*this);
+		}*/
+
+		/*MapValBuffer->boolValue = dt.boolValue;
+			MapValBuffer->isBool = true;*/
+			/*MapValBuffer->stringValue = dt.stringValue;
+			MapValBuffer->isString = dt.isString;*/
+			/*MapValBuffer->boolValue = dt.boolValue;
+			MapValBuffer->isBool = true;*/
+			/*MapValBuffer->doubleValue = dt.doubleValue;
+			MapValBuffer->isDouble = dt.isDouble;*/
+			/*MapValBuffer->intValue = dt.intValue;
+			MapValBuffer->isInt = dt.isInt;*/
